@@ -1,0 +1,20 @@
+{
+    "name": "slim-api-2",
+    "description": "Creation d'une mini-interface de programmation (API) a partir de Slim Framework (version 2)",
+    "authors": [
+        {
+            "name": "Guillaume RICHARD",
+            "email": "g.jf.richard@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-0":{
+            "": ""
+        }
+    },
+    "require": {
+	"php": "^5.3",
+	"slim/slim": "^2.6",
+	"slim/pdo": "^1.9"
+    }
+}
